@@ -1,10 +1,10 @@
 var imagens_index = 1;
 mostrar_imagens(imagens_index);
-function passar_imagens(num){
-    mostrar_imagens(imagens_index += num)
-}
 function current_slides(num){
     mostrar_imagens(imagens_index = num)
+}
+function passar_imagens(num){
+    mostrar_imagens(imagens_index += num)
 }
 function mostrar_imagens(num){
 
